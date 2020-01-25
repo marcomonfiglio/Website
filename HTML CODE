@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <head>
+    <title>HTML Basic</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <style> {
+    box-sizing: border-box;
+  }
+    h1 {
+      border: 5px;
+      margin-left: 175px;
+      margin-right: 175px;
+      text-align: center;
+      text-shadow: 3px 2px gold;
+      border-style: double;
+    }
+
+    h2 {
+    width: 500px;
+    margin-top: 100px;
+    margin-left:50px;
+    margin-right: 50px;
+  }
+
+    nav {
+  height: 300px; /* only for demonstration, should be removed */
+  /* background: #ccc;
+  padding: 20px; */
+  /* border: 10px solid black; */
+    }
+    section {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #5c8df7;
+  height: 300px; /* only for demonstration, should be removed */
+    }
+    section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .column {
+float: left;
+width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+    button {
+    border-width:thick;
+    height: 200px;
+    width: 400px;
+    background-color: gold;
+    text-align: center;
+    border-style: outset;
+    margin-left: 25px;
+    padding: 10px;
+  line-height: 50px;
+    vertical-align: middle;
+    }
+
+    button:hover {
+border-style: inset;
+text-shadow: 3px 2px white;
+    }
+
+
+    </style>
+  </head>
+  <body style="background-color: white;">
+<h1 style= "font-size:300%;"> Need any Computing for your Community??? </h1>
+<article style= "font-family:courier;font-size:150%; padding: 20px; margin-left: 10px; margin-bottom: 25px"> We are students of Community Computing and we would be happy to code something for <strong>YOU!</strong> To request a project, fill out the form below, and we will make it for <strong> YOU!</strong>
+</article>
+<div class="row">
+  <div class="column">
+    <nav>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9iRv0YSibWPFKyBcK7oL0Cq8f8bSUtCrMIu5-doW5ML2-1w/viewform?usp=sf_link" style= "text-decoration: none; color: black">
+    <button style="font-size:300%; height">
+      <strong>Request a Project</strong>
+    </button>
+  </a>
+  <h2 style = "font-family:courier;font-size:200%; font-weight: normal; text-align: center">
+   By: Rodrigo & Marco
+</h2>
+    </nav>
+  </div>
+  <div class="column">
+    <article>
+    <img src ="IMG_216A13E97802-1.jpeg" width="500" alt="Binary">
+    </img src>
+    </article>
+  </div>
+</div>
+  <h4 style = "font-size: 500%; text-align: center; margin-top: 500px">
+    BOTTOM TEXT
+  </h4>
+  <h5 style = font-size: 5%>
+    made with mematic
+  </h5>
+  </body>
+</html>
